@@ -7,7 +7,7 @@ void test1()
 {
 	try
 	{
-		KnapsackProblem knap("test1.txt");
+		KnapsackProblem knap("files/test1.txt");
 		GeneticAlgorithm ag (10, 0.5, 0.2);
 
 		ag.runAlgorithm(100, knap);
@@ -29,7 +29,7 @@ void test2()
 {
 	try
 	{
-		KnapsackProblem knap("test2.txt");
+		KnapsackProblem knap("files/test2.txt");
 		GeneticAlgorithm ag(100, 0.5, 0.2);
 
 		ag.runAlgorithm(100, knap);
@@ -51,7 +51,7 @@ void test3()
 {
 	try
 	{
-		KnapsackProblem knap("test3.txt");
+		KnapsackProblem knap("files/test3.txt");
 		GeneticAlgorithm ag(10, 0.5, 0.2);
 
 		ag.runAlgorithm(100, knap);
@@ -73,7 +73,7 @@ void test4()
 {
 	try
 	{
-		KnapsackProblem knap("test4.txt");
+		KnapsackProblem knap("files/test4.txt");
 		GeneticAlgorithm ag(10, 0.5, 0.2);
 
 		ag.runAlgorithm(100, knap);
@@ -119,7 +119,7 @@ void test6()
 {
 	try
 	{
-		KnapsackProblem knap("test4.txt");
+		KnapsackProblem knap("files/test4.txt");
 		GeneticAlgorithm ag(10, 2.5, -0.2);
 
 		ag.runAlgorithm(100, knap);
@@ -142,7 +142,7 @@ void test7()
 {
 	try
 	{
-		KnapsackProblem knap("test7.txt");
+		KnapsackProblem knap("files/test7.txt");
 		GeneticAlgorithm ag(10, 0.5, 0.2);
 
 		ag.runAlgorithm(1000, knap);
@@ -165,12 +165,12 @@ int main()
 	std::cout << "Hello World!\n";
 
 	test1();
-	//test2();
-	//test3();
-	//test4();
-	//test5();
+	test2();
+	test3();
+	test4();
+	test5();
 	//test6();
-	//test7();
+	test7();
 	
 	return 0;
 }

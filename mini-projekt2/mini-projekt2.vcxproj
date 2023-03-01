@@ -146,12 +146,7 @@
     <ClInclude Include="Random.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Tekst.txt" />
-    <Text Include="test7.txt" />
-    <Text Include="test1.txt" />
-    <Text Include="test2.txt" />
-    <Text Include="test3.txt" />
-    <Text Include="test4.txt" />
+    <Text Include="files\test1.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

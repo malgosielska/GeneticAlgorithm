@@ -67,22 +67,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test1.txt">
-      <Filter>Pliki zasobów\test_files</Filter>
-    </Text>
-    <Text Include="test2.txt">
-      <Filter>Pliki zasobów\test_files</Filter>
-    </Text>
-    <Text Include="test3.txt">
-      <Filter>Pliki zasobów\test_files</Filter>
-    </Text>
-    <Text Include="test4.txt">
-      <Filter>Pliki zasobów\test_files</Filter>
-    </Text>
-    <Text Include="test7.txt">
-      <Filter>Pliki zasobów\test_files</Filter>
-    </Text>
-    <Text Include="Tekst.txt">
+    <Text Include="files\test1.txt">
       <Filter>Pliki zasobów\test_files</Filter>
     </Text>
   </ItemGroup>
