@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki zasobów\test_files">
+      <UniqueIdentifier>{82d5c9e9-a8c4-4aa2-9dda-4c4a2fd1f075}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GeneticAlgorithm.cpp">
@@ -64,20 +67,23 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test7.txt">
-      <Filter>Pliki zasobów</Filter>
-    </Text>
     <Text Include="test1.txt">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\test_files</Filter>
     </Text>
     <Text Include="test2.txt">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\test_files</Filter>
     </Text>
     <Text Include="test3.txt">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\test_files</Filter>
     </Text>
     <Text Include="test4.txt">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\test_files</Filter>
+    </Text>
+    <Text Include="test7.txt">
+      <Filter>Pliki zasobów\test_files</Filter>
+    </Text>
+    <Text Include="Tekst.txt">
+      <Filter>Pliki zasobów\test_files</Filter>
     </Text>
   </ItemGroup>
 </Project>
